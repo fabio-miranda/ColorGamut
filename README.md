@@ -12,4 +12,4 @@ Interactive visualization of different sets of colors (all visible colors, sRGB,
 
 ![Color gamut visualization](https://vgc.poly.edu/~fmiranda/color-gamut/color-gamut-teaser.png)
 
-More: https://vgc.poly.edu/~fmiranda/color-gamut/
+More: https://fmiranda.me/projects/color-gamut/
