@@ -1,14 +1,17 @@
 # ColorGamut
-Color Gamut Visualization
 
-Interactive visualization of different sets of colors (all visible colors, sRGB, Munsell) on three different color spaces : CIE XYZ, CIE Lab and sRGB. Segment Maxima Method for computing gamut boundary based on Morovic et al., 2000.
+Color gamut visualization
 
-### Steps to build
-1. mkdir build && cd build
-1. cmake ../
-2. make
-3. cd ..
-4. ./build/gamut
+Interactive visualization of different sets of colors (all visible colors, sRGB, Munsell) on three different color spaces: CIE XYZ, CIELAB, and sRGB. Segment Maxima Method for computing gamut boundary based on Morovic et al., 2000.
+
+## Steps to Build
+
+1. `mkdir build`
+2. `cd build`
+3. `cmake ..`
+4. `make`
+5. `cd ..`
+6. `./build/gamut`
 
 ![Color gamut visualization](https://vgc.poly.edu/~fmiranda/color-gamut/color-gamut-teaser.png)
 
