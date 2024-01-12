@@ -53,4 +53,4 @@ sudo apt install freeglut3-dev
 3. `cmake ..`
 4. `make`
 
-The executable will be exported as `ColorGamut/build/gamut`.
+The executable will be exported as `ColorGamut/build/gamut`. Make sure that you copy the files in the `data` folder into the same directory as the executable before running the program.
