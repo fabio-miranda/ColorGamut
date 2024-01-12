@@ -45,13 +45,6 @@ set(
 	src/sRGB.h
 )
 
-# TODO: Delete.
-# get_cmake_property(_variableNames VARIABLES)
-# list(SORT _variableNames)
-# foreach (_variableName ${_variableNames})
-# 	message(STATUS "${_variableName}=${${_variableName}}")
-# endforeach ()
-
 add_executable(gamut ${src} ${headers})
 include_directories(${ANT_TWEAK_BAR_INCLUDE_DIR} ${OPENGL_INCLUDE_DIR} ${GLEW_INCLUDE_DIR} ${GLFW_INCLUDE_DIR} ${GLUT_INCLUDE_DIR})
 target_link_libraries(gamut ${ANT_TWEAK_BAR_LIBRARY} ${OPENGL_LIBRARIES} ${GLEW_LIBRARIES} ${GLFW_LIBRARIES} ${GLUT_LIBRARIES})
