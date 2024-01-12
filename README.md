@@ -1,6 +1,6 @@
 # ColorGamut
 
-Color gamut visualization
+[Color gamut visualization](https://fmiranda.me/projects/color-gamut/).
 
 Interactive visualization of different sets of colors (all visible colors, sRGB, Munsell) on three different color spaces: CIE XYZ, CIELAB, and sRGB. Segment Maxima Method for computing gamut boundary based on Morovic et al., 2000.
 
@@ -54,7 +54,3 @@ sudo apt install freeglut3-dev
 4. `make`
 
 The executable will be exported as `ColorGamut/build/gamut`.
-
-![Color gamut visualization](https://vgc.poly.edu/~fmiranda/color-gamut/color-gamut-teaser.png)
-
-More: https://fmiranda.me/projects/color-gamut/
