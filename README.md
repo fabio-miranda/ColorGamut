@@ -52,8 +52,8 @@ sudo apt install freeglut3-dev
 2. `cd build`
 3. `cmake ..`
 4. `make`
-5. `cd ..`
-6. `./build/gamut`
+
+The executable will be exported as `ColorGamut/build/gamut`.
 
 ![Color gamut visualization](https://vgc.poly.edu/~fmiranda/color-gamut/color-gamut-teaser.png)
 
